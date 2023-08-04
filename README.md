@@ -25,8 +25,11 @@ A few guiding principles that we will use in development here:
   - *(Efficient frontier.)* Write a program which takes as inputs a portfolio of stocks with chosen weights as well as a time horizon, and outputs (and plots) the performance of the portfolio over time. Extend this program to choose the optimal weights based on a given risk profile.
 2. **Simple betting games** 
   - What is the optimal strategy in our simple coin toss betting game, particularly when the minimum bet size is smaller than the ante?
+  - What is the strategy which maximizes volatility against the optimal strategy, and what is the volatility in this case? What is the volatility of the optimal strategy in general?
   - Write a program which allows a person to play the coin toss betting game against a computer. Extend it to allow simple prescription of the computer's strategy (formulate this requirement precisely!).
   - Write a program which allows two computer simulated strategies to play the coin toss betting game against each other and iteratively improve (define 'improvement' precisely!). Does it converge to an optimal strategy? Can this be written in such a way that the iterative improvement is optimal (define 'optimal' precisely!)?
 3. **Moderately complex games**
 4. **Poker and similar games**
+  - What does the game theory optimal poker strategy look like? Write a program which allows computer simulated strategies to play against each other heads up and iteratively improve.
+  - What is the strategy which maximizes volatility against a game theory optimal player heads up? What is the volatility? This is effectively getting at how bad it can possibly get for an optimal player.
 5. **Further applications to life**
